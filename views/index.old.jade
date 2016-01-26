@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  .main
+    .upper
+      h1= title
+      a(href="/")
+        ul= "HOME"
+      a(href="/music")
+        ul= "MUSIC"
+      a(href="/videos")
+        ul= "VIDEO"
+      a(href="/store")
+        ul= "STORE"
+      a(href="/news")
+        ul= "NEWS"
+      a(href="/tour")
+        ul= "TOUR"
+      a(href="/photos")
+        ul= "PHOTOS"
+
+    .lower
+      img(src='/images/rayban.png', alt='rayban')
+      img(id="guitar" src='/images/mike_guitar.png', alt='mike_guitar')
